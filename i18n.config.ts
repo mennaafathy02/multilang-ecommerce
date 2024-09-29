@@ -1,0 +1,52 @@
+export default defineI18nConfig(() => ({
+    legacy: false,
+    locale: 'en',
+    messages: {
+      en: {
+        welcome: 'Welcome',
+        exclusive:'Exclusive',
+        home:'Home',
+        products:'Products',
+        favourites:'Favourites',
+        login:'Login',
+        signup:'Signup',
+        view_all_products:'View All Products', 
+        search:'Search',
+        categories:'Categories',
+        my_account:'My Account',
+        profile:'Profile',
+        cart:'cart',
+        logout:'logout',
+        login_to_exc:'Log in to Exclusive',
+        enter_ur_details:'Enter your details below',
+        nameOrPhone:'Email or Phone Number',
+        password:'Password',
+        signup_to_exc:'Create an account',
+        name:'Name',
+        field:'field is required.',
+        min_2:'must be at least 2 characters.',
+        pass_min_6:'Password must be at least 6 characters.',
+        unknown_err:'An unknown error occurred.',
+        error:'Error',
+        success:'Success',
+        username:'username',
+        login_success:'logged in successfully'
+      },
+      ar: {
+        welcome: 'مرحبا',
+        exclusive:'اكسكلوسيف',
+        home:'الرئيسية',
+        products:'منتجات',
+        favourites:'المفضلة',
+        login:'تسجيل الدخول',
+        signup:'التسجيل',
+        view_all_products:'عرض جميع المنتجات',
+        search:'بحث',
+        categories:'فئات',
+        my_account:'حسابي',
+        profile:'الحساب',
+        cart:'السلة',
+        logout:'تسجيل الخروج'
+      }
+    }
+  }))
